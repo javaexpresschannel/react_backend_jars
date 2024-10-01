@@ -1,0 +1,17 @@
+Read Me File
+
+1) Download java Software and install 
+  https://www.youtube.com/watch?v=TVvcRHuv844&list=PL87padGs1bp-wgszXFnQciKqtQ1f048Ec&index=3
+2) set java path in your local system
+  JAVA_HOME
+
+Please watch above video for installation and setting java path in local system
+
+3) Close this Repo and run jar in local
+  Open Command Prompt
+   java -jar <jarName>
+   java -jar react-user-registration-0.0.1-SNAPSHOT.jar
+
+4) It will expose on port number 8080 ( access in browser and it will display apis)
+  http://localhost:8080/swagger-ui/index.html
+
