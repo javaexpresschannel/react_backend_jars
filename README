@@ -15,3 +15,13 @@ Please watch above video for installation and setting java path in local system
 4) It will expose on port number 8080 ( access in browser and it will display apis)
   http://localhost:8080/swagger-ui/index.html
 
+
+Mongo DB Setup
+--------------
+1) Docker & JDK 17 you need to install in local system 
+	https://docs.docker.com/engine/install/
+2) run below command
+	docker run -d -p 27017:27017 --name mongodb mongo
+3) run below jar file
+	java -jar bigbasket-1.0.0-SNAPSHOT.jar
+
