@@ -1,0 +1,18 @@
+// changeImage
+    let changeImage = async (event) => {
+        let imageFile = event.target.files[0];
+        let reader = new FileReader();
+        reader.readAsDataURL(imageFile);
+        reader.addEventListener('load', () => {
+            if (reader.result) {
+                setProduct({
+                    ...product,
+                    image: reader.result
+                });
+            }
+            else {
+                alert('Error Occurred');
+            }
+        });
+    };
+
